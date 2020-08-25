@@ -1,0 +1,37 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+  <link rel="shortcut icon" href="imagens/sistema/icon3.png">
+	<meta charset="UTF-8">
+	<title> Messenger JSMS | Enviar </title>
+	<body class="body1">
+
+    	<header>
+		      <nav>
+		        <ul>
+             <li><img id="logoNav"src="imagens/sistema/logo7.png" alt=""></li>
+    	      <li><a id="fonte1" href="menu.html">Menu Principal</a></li>
+            <li><a id="fonte1" href="mensagens.html">Visualizar Mensagens</a></li>
+            <li><a id="fonte1" href="cadastro2.html">Cadastrar Usuário</a></li>
+            <li><a id="fonte1" href="usuarios.html">Visualizar Usuários</a></li>
+					  </ul>
+		      </nav>
+				</header>
+
+    <form form action="/enviar" method="POST">
+			<div id="divEnviar" align="center">
+			<p id="fonte4">Nome: <input class="ph2" type="text" name="remetente" placeholder="Digite o seu nome"/> </p>
+			<p id="fonte4">Senha: <input class="ph2" type="password"name="senha" placeholder="Digite a sua senha"/></p><br>
+      		</div>
+     		 <div id="divEnviar2" align="left">
+     		 <textarea id="taMensagem" name="texto"></textarea><br><br>
+     		 <input id="botao2" type="submit" value="Enviar">
+      		</div>
+			<div id="divEnviar3" align="left">
+			<p id="fonte4">Destinatário: <input class="ph2" type="text"name="destinatario" placeholder="Destinatário da mensagem"/></p><br>
+			</div>
+  </form>
+	</body>
+</head>
+</html>

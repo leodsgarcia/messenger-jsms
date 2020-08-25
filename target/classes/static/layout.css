@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+
+
+html {
+  background-size: 100% 100%;
+  overflow:hidden;
+  margin-top: 0;
+}
+#fonte1{
+  font-family: 'Arial', normal;
+  color: white;
+  font-size: 18px;
+}
+#fonte2{
+  font-family: 'Arial', normal;
+  color: #9500B3;
+  font-size: 20px;
+}
+
+#fonte3{
+  font-family: 'Helvetica', sans-serif;
+  color: purple;
+}
+
+#fonte4{
+  font-family: 'Arial', normal;
+  color: #9500B3;
+  font-size: 16px;
+}
+
+
+#logoEntrada {
+  position: absolute;
+  width: 590px;
+  height: 330px;
+  margin-left: -21.2%;
+  margin-top: -12%;
+}
+#logoNav {
+  width: 50px;
+  height: 50px;
+}
+
+.body1 {
+  background-image:url("imagens/sistema/background3.jpg");
+  background-size: 100% 100%;
+  overflow:hidden;
+  margin: 0;
+}
+
+.body2 {
+  background-image:url("imagens/sistema/background1.jpg");
+  overflow:hidden;
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+#divEntrada {
+	margin-top: 400px;
+	padding: 40px;
+}
+
+#divLogo {
+	margin-top: 260px;
+}
+
+#divCadastro{
+  border-radius: 25px;
+  background-color: white;
+	border: 1px solid white ;
+	padding: 40px;
+	width: 50%;
+	height: 40%;
+	text-align: center;
+  top: 20%;
+  left: 20%;
+	position: absolute;
+	margin-top: center;
+	margin-left: center;
+}
+#divEnviar{
+  border-radius: 25px;
+  background-color: white;
+	border: 1px solid white ;
+	padding: 40px;
+	width: 20%;
+	height: 20%;
+	text-align: center;
+  top: 20%;
+  left: 20%;
+  margin-left: -15%;
+	position: absolute;
+	margin-top: center;
+	margin-left: center;
+}
+#divEnviar2{
+  border-radius: 25px;
+  background-color: white;
+	border: 1px solid white ;
+	padding: 40px;
+	width: 53%;
+	height: 55%;
+	text-align: center;
+  top: 20%;
+  left: 20%;
+  margin-left: 14%;
+	position: absolute;
+	margin-top: center;
+	margin-left: center;
+}
+
+
+#divEnviar3{
+  border-radius: 25px;
+  background-color: white;
+	border: 1px solid white ;
+	padding: 40px;
+	width: 20%;
+	height: 15%;
+	text-align: center;
+  top: 60%;
+  left: 20%;
+  margin-left: -15%;
+	position: absolute;
+	margin-top: center;
+	margin-left: center;
+}
+
+.ph1 {
+  margin-top: 15px;
+  border: 1px solid  #9500B3;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.ph2 {
+  margin-top: 15px;
+  border: 1px solid  #9500B3;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.ph3 {
+  margin-top: 0;
+  border: 1px solid  #9500B3;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 520px;
+  height: 320px;
+}
+
+#botao1 {
+  width: 350px;
+  height: 40px;
+  background-color: white;
+  border-radius:15px;
+  border-color: #9500B3;
+  overflow: hidden;
+  font-family: 'Arial', normal;
+  font-size: 18px;
+  color: white;
+  background-color: #9500B3;
+  cursor:pointer;
+
+}
+
+#botao2 {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-radius:15px;
+  border-color: #9500B3;
+  overflow: hidden;
+  font-family: 'Arial', normal;
+  font-size: 18px;
+  color: white;
+  background-color: #9500B3;
+ cursor:pointer;
+
+}
+
+#taMensagem{
+   width: 660px;
+   height: 320px;
+   resize: none;
+   margin-top: 0;
+   border: 1px solid  #9500B3;
+   border-radius: 5px;
+   font-family: 'Arial', normal;
+   color: black;
+   font-size: 16px;
+ }
+
+nav {
+  float: left;
+  margin-left: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 20px;
+  position: relative;
+  margin-top: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  top: 15%;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+header {
+  background: #9500B3;
+  height: 12%;
+  margin: 0%;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+a{
+  text-decoration: none;
+  float: right;
+  margin-right: 15%;
+  margin-top: 0;
+}
